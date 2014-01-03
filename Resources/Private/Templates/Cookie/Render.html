@@ -18,23 +18,28 @@
 
     <v:asset.style path="{theme}"
                    name="SoeeCookiecuttr_styleCookiecuttr"
-                   group="SoeeCookiecuttr_Styles" />
+                   group="SoeeCookiecuttr_CSS" />
+
+    <v:asset.script path="EXT:soee_cookiecuttr/Resources/Public/JavaScript/jquery-1.10.2.min.js"
+                    name="SoeeCookiecuttr_jQuery"
+                    group="SoeeCookiecuttr_JS"
+                    allowMoveToFooter="1" />
 
     <v:asset.script path="EXT:soee_cookiecuttr/Resources/Public/JavaScript/jquery.cookie.js"
                     name="SoeeCookiecuttr_jqueryCookie"
-                    dependencies="jQuery"
-                    group="SoeeCookiecuttr"
+                    dependencies="SoeeCookiecuttr_jQuery"
+                    group="SoeeCookiecuttr_JS"
                     allowMoveToFooter="1" />
 
     <v:asset.script path="EXT:soee_cookiecuttr/Resources/Public/JavaScript/jquery.cookiecuttr.js"
                     name="SoeeCookiecuttr_cookiecuttr"
-                    dependencies="jQuery, SoeeCookiecuttr_jqueryCookie"
-                    group="SoeeCookiecuttr"
+                    dependencies="SoeeCookiecuttr_jQuery, SoeeCookiecuttr_jqueryCookie"
+                    group="SoeeCookiecuttr_JS"
                     allowMoveToFooter="1" />
 
     <v:asset.script name="SoeeCookiecuttr_script"
                     dependencies="SoeeCookiecuttr_cookiecuttr"
-                    group="SoeeCookiecuttr"
+                    group="SoeeCookiecuttr_JS"
                     allowMoveToFooter="1">
 
         $(document).ready(function() {
