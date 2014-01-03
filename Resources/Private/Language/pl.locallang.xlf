@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="pl" datatype="plaintext" original="messages" date="2013-12-28T01:45:19Z" product-name="soee_cookiecuttr">
+		<header/>
+		<body>
+            <trans-unit id="frontend.message" approved="yes" xml:space="preserve">
+                <source>We use cookies on this website, you can &lt;a href=\'{{cookiePolicyLink}}\' title=\'Read about our cookies\'&gt;read about them here&lt;/a&gt;. To use the website as intended please...</source>
+                <target>Na tej stronie wykorzystujemy ciasteczka, możesz &lt;a href=\'{{cookiePolicyLink}}\' title=\'Przeczytaj o ciasteczkach\'&gt;przeczytać o nich tutaj&lt;/a&gt;. Aby korzystać ze strony zgodnie z przeznaczeniem prosimy...</target>
+            </trans-unit>
+            <trans-unit id="frontend.analytics_message" approved="yes" xml:space="preserve">
+                <source>We use cookies, just to track visits to our website, we store no personal details.</source>
+                <target>Wykorzystujemy ciasteczka wyłącznie w celu śledzenia odwiedzin na naszej stronie, nie przechowujemy danych personlanych.</target>
+            </trans-unit>
+            <trans-unit id="frontend.error_message" approved="yes" xml:space="preserve">
+                <source>We\'re sorry, this feature places cookies in your browser and has been disabled. &lt;br/&gt;To continue using this functionality, please enable cookies.</source>
+                <target>Przykro nam, ta funkcjonalność umieszcza ciasteczka w Twojej przeglądarce i została wyłączona. &lt;br/&gt; Aby kontynuować używanie tej funckjonalności, prosimy włączyć obsługę ciasteczek.</target>
+            </trans-unit>
+            <trans-unit id="frontend.accept_button_text" approved="yes" xml:space="preserve">
+                <source>Accept cookies</source>
+                <target>Akceptuj ciasteczka</target>
+            </trans-unit>
+            <trans-unit id="frontend.decline_button_text" approved="yes" xml:space="preserve">
+                <source>Decline cookies</source>
+                <target>Odrzuć ciasteczka</target>
+            </trans-unit>
+            <trans-unit id="frontend.reset_button_text" approved="yes" xml:space="preserve">
+                <source>Reset cookies for this website</source>
+                <target>Resetuj ciasteczka dla tej strony</target>
+            </trans-unit>
+            <trans-unit id="frontend.what_are_link_text" approved="yes" xml:space="preserve">
+                <source>What are cookies?</source>
+                <target>Czym są ciasteczka?</target>
+            </trans-unit>
+            <trans-unit id="frontend.policy_page_message" approved="yes" xml:space="preserve">
+                <source>Please read the information below and then choose from the following options</source>
+                <target>Przeczytaj poniższe informacje, a następnie wybierz z następujących opcji</target>
+            </trans-unit>
+            <trans-unit id="frontend.discreet_link_text" approved="yes" xml:space="preserve">
+                <source>Cookies?</source>
+                <target>Ciasteczka?</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

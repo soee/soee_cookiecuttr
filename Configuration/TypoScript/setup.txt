@@ -1,0 +1,73 @@
+
+plugin.tx_soeecookiecuttr {
+	view {
+		templateRootPath = {$plugin.tx_soeecookiecuttr.view.templateRootPath}
+		partialRootPath = {$plugin.tx_soeecookiecuttr.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_soeecookiecuttr.view.layoutRootPath}
+	}
+
+	persistence {
+		storagePid = {$plugin.tx_soeecookiecuttr.persistence.storagePid}
+	}
+
+	settings {
+	    # set path to css themes directory (add / at the end!)
+        cssThemesRootPath=
+
+	    # to easily manage different styles we can set css theme name here
+	    cssTheme= default
+
+        # if you’d like to actively hide parts of your website set this to true, for example say you use a comments system
+        # that inserts cookies, you can put the div name in below to replace it with a cookie warning message.
+        cookieCutter= 0
+
+        # If you are just using a simple analytics package you can set this to true, it displays a simple default message
+        # with no privacy policy link - this is set to true by default.
+        cookieAnalytics= 1
+
+        # If you’d like a decline button to (ironically) write a cookie into the browser then set this to true
+        cookieDeclineButton= 0
+
+        # set this to false to hide the accept button
+        cookieAcceptButton= 1
+
+        #  If you’d like a reset button to delete the accept or decline cookies then set this to true
+        cookieResetButton= 1
+
+        #  Don't want a discreet toolbar? this makes the whole message into a 100% height
+        cookieOverlayEnabled= 0
+
+        # if applicable, enter the link to your privacy policy in here - this is as soon as cookieAnalytics is set to false
+        cookiePolicyLink= '/privacy-policy/'
+
+        # Edit the link for the 'What are Cookies' link
+        cookieWhatAreTheyLink= http://www.allaboutcookies.org/
+
+	    # this is false by default, change it to true and the cookie notification bar will show at the bottom of the page instead,
+	    # please note this will remain at the top for mobile and iOS devices and Internet Explorer 6.
+	    cookieNotificationLocationBottom= 1
+
+        # List elements comma separated in here that you want to disable, this will only work if cookieCutter is set to true
+        cookieDisable=
+
+	    # display the message you want to appear on your privacy or cookie policy page
+	    cookiePolicyPage= 0
+
+        # false by default, set to true to enable
+	    cookieDiscreetLink= 0
+
+	    # possible values topleft, topright, bottomleft, bottomright
+	    cookieDiscreetPosition= topleft
+
+	    # empty by default, add your domain name in here without www. or https:// or http:// to remove Google Analytics cookies on decline
+        cookieDomain=
+	}
+
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.tx_soeecookiecuttr._CSS_DEFAULT_STYLE (
+)

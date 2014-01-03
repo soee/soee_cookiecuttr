@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-12-28T01:45:19Z" product-name="soee_cookiecuttr">
+		<header/>
+		<body>
+            <trans-unit id="flexform.tab_general">
+                <source>General</source>
+            </trans-unit>
+            <trans-unit id="flexform.tab_template">
+                <source>Template</source>
+            </trans-unit>
+
+            <trans-unit id="flexform.css_themes_toot_path">
+                <source>Custom path to folder with CSS themes files</source>
+            </trans-unit>
+            <trans-unit id="flexform.css_theme">
+                <source>CSS theme</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_cutter">
+                <source>Actively hide parts of website</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_analytics">
+                <source>Display a simple default message with no privacy policy link when using analytics scripts</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_decline_button">
+                <source>Show DECLINE button</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_accept_button">
+                <source>Show ACCEPT button</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_reset_button">
+                <source>Show RESET button</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_overlay_enabled">
+                <source>Enable full page overlay</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_policy_link">
+                <source>Link to cookie policy page</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_what_are_they_link">
+                <source>Cookies explanation link</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_notification_location_bottom">
+                <source>Show policy bar at the bottom of the page</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_disable">
+                <source>Comma separated list of elements to disable (cookieCutter has to be set to true)</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_policy_page">
+                <source>Display message that should appear on privacy or cookie policy page</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_discreet_link">
+                <source>Show discreet link</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_discreet_position">
+                <source>Discreet link position</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_domain">
+                <source>Domain name without www. or https:// or http://</source>
+            </trans-unit>
+
+            <trans-unit id="flexform.layouts_root_path">
+                <source>Layouts root path</source>
+            </trans-unit>
+            <trans-unit id="flexform.templates_root_path">
+                <source>Templates root path</source>
+            </trans-unit>
+            <trans-unit id="flexform.partials_root_path">
+                <source>Partials root path</source>
+            </trans-unit>
+
+            <trans-unit id="frontend.message">
+                <source>We use cookies on this website, you can &lt;a href=\'{{cookiePolicyLink}}\' title=\'Read about our cookies\'&gt;read about them here&lt;/a&gt;. To use the website as intended please...</source>
+            </trans-unit>
+            <trans-unit id="frontend.analytics_message">
+                <source>We use cookies, just to track visits to our website, we store no personal details.</source>
+            </trans-unit>
+            <trans-unit id="frontend.error_message">
+                <source>We\'re sorry, this feature places cookies in your browser and has been disabled. &lt;br/&gt;To continue using this functionality, please enable cookies.</source>
+            </trans-unit>
+            <trans-unit id="frontend.accept_button_text">
+                <source>Accept cookies</source>
+            </trans-unit>
+            <trans-unit id="frontend.decline_button_text">
+                <source>Decline cookies</source>
+            </trans-unit>
+            <trans-unit id="frontend.reset_button_text">
+                <source>Reset cookies for this website</source>
+            </trans-unit>
+            <trans-unit id="frontend.what_are_link_text">
+                <source>What are cookies?</source>
+            </trans-unit>
+            <trans-unit id="frontend.policy_page_message">
+                <source>Please read the information below and then choose from the following options</source>
+            </trans-unit>
+            <trans-unit id="frontend.discreet_link_text">
+                <source>Cookies?</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

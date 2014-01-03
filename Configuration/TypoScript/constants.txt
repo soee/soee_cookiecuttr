@@ -1,0 +1,15 @@
+
+plugin.tx_soeecookiecuttr {
+	view {
+		# cat=plugin.tx_soeecookiecuttr/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:soee_cookiecuttr/Resources/Private/Templates/
+		# cat=plugin.tx_soeecookiecuttr/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:soee_cookiecuttr/Resources/Private/Partials/
+		# cat=plugin.tx_soeecookiecuttr/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:soee_cookiecuttr/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_soeecookiecuttr//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

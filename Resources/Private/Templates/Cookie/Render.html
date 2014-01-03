@@ -1,0 +1,71 @@
+{namespace v=Tx_Vhs_ViewHelpers}
+
+<f:layout name="Default" />
+
+
+<f:section name="main">
+
+    <f:flashMessages />
+
+    <f:if condition="{settings.cssThemesRootPath}">
+        <f:then>
+            <v:var.set name="theme" value="{settings.cssThemesRootPath}{settings.cssTheme}.css" />
+        </f:then>
+        <f:else>
+            <v:var.set name="theme" value="{f:uri.resource(path:'Styles/Themes/')}{settings.cssTheme}.css" />
+        </f:else>
+    </f:if>
+
+    <v:asset.style path="{theme}"
+                   name="SoeeCookiecuttr_styleCookiecuttr"
+                   group="SoeeCookiecuttr_Styles" />
+
+    <v:asset.script path="EXT:soee_cookiecuttr/Resources/Public/JavaScript/jquery.cookie.js"
+                    name="SoeeCookiecuttr_jqueryCookie"
+                    dependencies="jQuery"
+                    group="SoeeCookiecuttr"
+                    allowMoveToFooter="1" />
+
+    <v:asset.script path="EXT:soee_cookiecuttr/Resources/Public/JavaScript/jquery.cookiecuttr.js"
+                    name="SoeeCookiecuttr_cookiecuttr"
+                    dependencies="jQuery, SoeeCookiecuttr_jqueryCookie"
+                    group="SoeeCookiecuttr"
+                    allowMoveToFooter="1" />
+
+    <v:asset.script name="SoeeCookiecuttr_script"
+                    dependencies="SoeeCookiecuttr_cookiecuttr"
+                    group="SoeeCookiecuttr"
+                    allowMoveToFooter="1">
+
+        $(document).ready(function() {
+            $.cookieCuttr(
+                <![CDATA[{]]>
+                cookieCutter: {settings.cookieCutter},
+                cookieAnalytics: {settings.cookieAnalytics},
+                cookieDeclineButton: {settings.cookieDeclineButton},
+                cookieAcceptButton: {settings.cookieAcceptButton},
+                cookieResetButton: {settings.cookieResetButton},
+                cookieOverlayEnabled: {settings.cookieOverlayEnabled},
+                cookiePolicyLink: "{settings.cookiePolicyLink}",
+                cookieMessage: "<f:translate key="frontend.message" />",
+                cookieAnalyticsMessage: "<f:translate key="frontend.analytics_message" />",
+                cookieWhatAreTheyLink: "{settings.cookieWhatAreTheyLink}",
+                cookieErrorMessage: "<f:translate key="frontend.error_message" />",
+                cookieNotificationLocationBottom: {settings.cookieNotificationLocationBottom},
+                cookieDisable: "{settings.cookieDisable}",
+                cookieAcceptButtonText: "<f:translate key="frontend.accept_button_text" />",
+                cookieDeclineButtonText: "<f:translate key="frontend.decline_button_text" />",
+                cookieResetButtonText: "<f:translate key="frontend.reset_button_text" />",
+                cookieWhatAreLinkText: "<f:translate key="frontend.what_are_link_text" />",
+                cookiePolicyPage: {settings.cookiePolicyPage},
+                cookiePolicyPageMessage: "<f:translate key="frontend.policy_page_message" />",
+                cookieDiscreetLink: {settings.cookieDiscreetLink},
+                cookieDiscreetLinkText: "<f:translate key="frontend.discreet_link_text" />",
+                cookieDiscreetPosition: "topleft",
+                cookieDomain: "{settings.cookieDomain}"
+                <![CDATA[}]]>
+            );
+        });
+
+    </v:asset.script>
+</f:section>
