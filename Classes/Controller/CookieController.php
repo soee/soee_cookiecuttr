@@ -31,7 +31,8 @@ namespace SOEE\SoeeCookiecuttr\Controller;
  * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
  *
  */
-class CookieController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
+class CookieController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
+{
 
     /**
      * Renders cookie policy bar
@@ -41,5 +42,4 @@ class CookieController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControlle
     public function renderAction()
     {
     }
-
 }
