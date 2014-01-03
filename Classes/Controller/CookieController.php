@@ -4,7 +4,7 @@ namespace SOEE\SoeeCookiecuttr\Controller;
 /***************************************************************
  *  Copyright notice
  *
- *  (c) 2013 Marcin Sągol <kontakt@soee.pl>, soee.pl
+ *  (c) 2014 Marcin Sągol <kontakt@soee.pl>, soee.pl
  *
  *  All rights reserved
  *
