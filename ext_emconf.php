@@ -11,35 +11,35 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'soee - CookieCuttr',
-	'description' => 'This extension implements jQuery based CookieCuttr plugin to present cookie law message. For more details visit http://cookiecuttr.com/',
-	'category' => 'fe',
-	'author' => 'Marcin Sągol',
-	'author_email' => 'kontakt@soee.pl',
-	'author_company' => 'soee.pl',
-	'shy' => '',
-	'priority' => '',
-	'module' => '',
-	'state' => 'alpha',
-	'internal' => '',
-	'uploadfolder' => '0',
-	'createDirs' => '',
-	'modify_tables' => '',
-	'clearCacheOnLoad' => 0,
-	'lockType' => '',
-	'version' => '0.0.1',
-	'constraints' => array(
-		'depends' => array(
-			'extbase' => '6.0',
-			'fluid' => '6.0',
-			'typo3' => '6.0-6.2.99',
+    'title' => 'soee - CookieCuttr',
+    'description' => 'This extension implements jQuery based CookieCuttr plugin to present cookie law message. For more details visit http://cookiecuttr.com/',
+    'category' => 'fe',
+    'author' => 'Marcin Sągol',
+    'author_email' => 'kontakt@soee.pl',
+    'author_company' => 'soee.pl',
+    'shy' => '',
+    'priority' => '',
+    'module' => '',
+    'state' => 'stable',
+    'internal' => '',
+    'uploadfolder' => '0',
+    'createDirs' => '',
+    'modify_tables' => '',
+    'clearCacheOnLoad' => 0,
+    'lockType' => '',
+    'version' => '1.0.0',
+    'constraints' => array(
+        'depends' => array(
+            'extbase' => '6.0',
+            'fluid' => '6.0',
+            'typo3' => '6.0-6.2.99',
             'vhs' => '1.8.0',
-		),
-		'conflicts' => array(
-		),
-		'suggests' => array(
-		),
-	),
+        ),
+        'conflicts' => array(
+        ),
+        'suggests' => array(
+        ),
+    ),
 );
 
 ?>
