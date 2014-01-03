@@ -55,7 +55,7 @@
     text-decoration: none;
     background: #00a338;
     padding: 0.5em 0.75em;
-    -o-transition: background 0.5s ease-in;
+    transition: background 0.5s ease-in;
     -webkit-transition: background 0.25s ease-in;
     -moz-transition: background 0.25s ease-in;
 }
@@ -75,7 +75,7 @@
 .cc-cookies-error a:hover.cc-cookie-decline,
 .cc-cookies a:hover.cc-cookie-reset  {
     background: #00b5ff;
-    -o-transition: background 0.5s ease-in;
+    transition: background 0.5s ease-in;
     -webkit-transition: background 0.25s ease-in;
     -moz-transition: background 0.25s ease-in;
 }
@@ -94,9 +94,9 @@
 }
 
 .cc-cookies.cc-discreet a.cc-cookie-reset {
-    background: none;
     padding: 0;
     text-decoration: underline;
+    background: none;
 }
 
 .cc-cookies.cc-discreet a:hover.cc-cookie-reset {
