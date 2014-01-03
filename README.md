@@ -1,4 +1,4 @@
-# soee - Cookiecuttr
+# soee - CookieCuttr
 ###### TYPO3 extensions that implements jQuery CookieCuttr plugin to display cookie policy bar.
 
 ## Installation
