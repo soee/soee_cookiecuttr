@@ -14,7 +14,7 @@ plugin.tx_soeecookiecuttr {
 	    # Set path to css themes directory (add / at the end!)
         cssThemesRootPath=
 
-	    # To easily manage different styles we can set css theme name here
+	    # Sets CSS theme for cookies policy bar (by default there are 3 themes available: default, metro, neos)
 	    cssTheme= default
 
         # If you’d like to actively hide parts of your website set this to true, for example say you use a comments system
