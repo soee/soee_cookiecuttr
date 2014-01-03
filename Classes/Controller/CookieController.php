@@ -34,7 +34,7 @@ namespace SOEE\SoeeCookiecuttr\Controller;
 class CookieController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
 
     /**
-     * Renders cookie law informational panel
+     * Renders cookie policy bar
      *
      * @return void
      */
