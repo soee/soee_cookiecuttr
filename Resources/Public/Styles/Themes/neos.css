@@ -1,0 +1,128 @@
+/* To be used with cookieCuttr by Chris Wharton (http://cookiecuttr.com) */
+
+.cc-cookies {
+    z-index: 99999;
+    position:fixed;
+    left: 0;
+    top: 0;
+    padding: 0 5%;
+    width: 100%;
+    line-height: 25px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    background: #141414;
+    background: rgba(20,20,20,0.95);
+    border-top: 1px solid #3f3f3f;
+    border-bottom: 1px solid #3f3f3f;
+}
+
+.cc-cookies a,
+.cc-cookies a:hover {
+    margin: 0 0.4em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cc-cookies a:hover {
+    text-decoration: none;
+}
+
+.cc-overlay {
+    height: 100%;
+    padding-top: 25%;
+}
+
+.cc-cookies-error {
+    float: left;
+    margin: 1em 0 2em 0;
+    padding: 2em 5%;
+    width: 90%;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.cc-cookies a.cc-cookie-accept,
+.cc-cookies-error a.cc-cookie-accept,
+.cc-cookies a.cc-cookie-decline,
+.cc-cookies-error a.cc-cookie-decline,
+.cc-cookies a.cc-cookie-reset {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: #00a338;
+    padding: 0.5em 0.75em;
+    -o-transition: background 0.5s ease-in;
+    -webkit-transition: background 0.25s ease-in;
+    -moz-transition: background 0.25s ease-in;
+}
+
+.cc-cookies a.cc-cookie-decline,
+.cc-cookies-error a.cc-cookie-decline {
+    background: #ff460d;
+}
+
+.cc-cookies a.cc-cookie-reset {
+    background: #ff8700;
+}
+
+.cc-cookies a:hover.cc-cookie-accept,
+.cc-cookies-error a:hover.cc-cookie-accept,
+.cc-cookies a:hover.cc-cookie-decline,
+.cc-cookies-error a:hover.cc-cookie-decline,
+.cc-cookies a:hover.cc-cookie-reset  {
+    background: #00b5ff;
+    -o-transition: background 0.5s ease-in;
+    -webkit-transition: background 0.25s ease-in;
+    -moz-transition: background 0.25s ease-in;
+}
+
+.cc-cookies-error a.cc-cookie-accept,
+.cc-cookies-error a.cc-cookie-decline {
+    display: block;
+    margin-top: 1em;
+}
+
+.cc-cookies.cc-discreet {
+    top: auto;
+    left: auto;
+    padding: 0.5em 1em;
+    width: auto;
+}
+
+.cc-cookies.cc-discreet a.cc-cookie-reset {
+    background: none;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.cc-cookies.cc-discreet a:hover.cc-cookie-reset {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .cc-cookies {
+        padding: 20px;
+    }
+
+    .cc-cookies a.cc-cookie-accept,
+    .cc-cookies a.cc-cookie-decline,
+    .cc-cookies a.cc-cookie-reset {
+        display: block;
+        margin: 1em 0;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .cc-cookies {
+        position: relative;
+        float: left;
+    }
+
+}

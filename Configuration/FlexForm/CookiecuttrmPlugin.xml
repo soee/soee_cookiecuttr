@@ -37,6 +37,10 @@
                                         <numIndex index="0">metro</numIndex>
                                         <numIndex index="1">metro</numIndex>
                                     </numIndex>
+                                    <numIndex index="3">
+                                        <numIndex index="0">neos</numIndex>
+                                        <numIndex index="1">neos</numIndex>
+                                    </numIndex>
                                 </items>
                             </config>
                         </TCEforms>
