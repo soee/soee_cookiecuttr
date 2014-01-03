@@ -6,9 +6,6 @@
             <trans-unit id="flexform.tab_general">
                 <source>General</source>
             </trans-unit>
-            <trans-unit id="flexform.tab_template">
-                <source>Template</source>
-            </trans-unit>
 
             <trans-unit id="flexform.css_themes_toot_path">
                 <source>Custom path to folder with CSS themes files</source>
@@ -57,16 +54,6 @@
             </trans-unit>
             <trans-unit id="flexform.cookie_domain">
                 <source>Domain name without www. or https:// or http://</source>
-            </trans-unit>
-
-            <trans-unit id="flexform.layouts_root_path">
-                <source>Layouts root path</source>
-            </trans-unit>
-            <trans-unit id="flexform.templates_root_path">
-                <source>Templates root path</source>
-            </trans-unit>
-            <trans-unit id="flexform.partials_root_path">
-                <source>Partials root path</source>
             </trans-unit>
 
             <trans-unit id="frontend.message">
