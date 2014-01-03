@@ -48,7 +48,7 @@
                     <settings.cookieCutter>
                         <TCEforms>
                             <exclude>1</exclude>
-                            <label>LLL:EXT:soee_cookiecuttr/Resources/Private/Language/locallang.xlf:flexform.cookie_cutLLL:EXT:soee_cookiecuttr/Resources/Private/Language/locallang.xlf:flexform.cookie_cutterter</label>
+                            <label>LLL:EXT:soee_cookiecuttr/Resources/Private/Language/locallang.xlf:flexform.cookie_cutter</label>
                             <onChange>reload</onChange>
                             <config>
                                 <type>check</type>
