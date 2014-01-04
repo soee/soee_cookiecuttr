@@ -38,10 +38,10 @@ plugin.tx_soeecookiecuttr {
         cookieOverlayEnabled= 0
 
         # If applicable, enter the link to your privacy policy in here - this is as soon as cookieAnalytics is set to false
-        cookiePolicyLink= '/privacy-policy/'
+        cookiePolicyLink=
 
         # Edit the link for the 'What are Cookies' link
-        cookieWhatAreTheyLink= http://www.allaboutcookies.org/
+        cookieWhatAreTheyLink=
 
 	    # This is false by default, change it to true and the cookie notification bar will show at the bottom of the page instead,
 	    # please note this will remain at the top for mobile and iOS devices and Internet Explorer 6.
