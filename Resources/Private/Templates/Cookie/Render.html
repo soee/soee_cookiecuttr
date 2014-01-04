@@ -7,9 +7,9 @@
 
     <f:flashMessages />
 
-    <f:if condition="{settings.cssThemesRootPath}">
+    <f:if condition="{settings.cssThemesPath}">
         <f:then>
-            <v:var.set name="theme" value="{settings.cssThemesRootPath}{settings.cssTheme}.css" />
+            <v:var.set name="theme" value="{settings.cssThemesPath}{settings.cssTheme}.css" />
         </f:then>
         <f:else>
             <v:var.set name="theme" value="{f:uri.resource(path:'Styles/Themes/')}{settings.cssTheme}.css" />
