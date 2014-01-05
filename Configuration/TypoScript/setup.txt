@@ -37,10 +37,10 @@ plugin.tx_soeecookiecuttr {
         # Don't want a discreet toolbar? this makes the whole message into a 100% height
         cookieOverlayEnabled= 0
 
-        # If applicable, enter the link to your privacy policy in here - this is as soon as cookieAnalytics is set to false
+        # Page UID with privacy policy
         cookiePolicyLink=
 
-        # Edit the link for the 'What are Cookies' link
+        # Page UID to the page with explanation 'What are Cookies'
         cookieWhatAreTheyLink=
 
 	    # This is false by default, change it to true and the cookie notification bar will show at the bottom of the page instead,
