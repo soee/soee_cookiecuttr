@@ -35,7 +35,7 @@
 
 
     <f:if condition="{settings.cookiePolicyLink}">
-        <f:then><v:var.set name="policyLink" value="{f:link.page(pageUid:'{settings.cookiePolicyLink}')}" /></f:then>
+        <f:then><v:var.set name="policyLink" value="{f:uri.page(pageUid:'{settings.cookiePolicyLink}')}" /></f:then>
         <f:else><v:var.set name="policyLink" value="" /></f:else>
     </f:if>
 
