@@ -267,9 +267,8 @@
                         <exclude>1</exclude>
                         <label>LLL:EXT:soee_cookiecuttr/Resources/Private/Language/locallang.xlf:flexform.cookie_accept_button_text</label>
                         <config>
-                            <type>text</type>
-                            <cols>20</cols>
-                            <rows>1</rows>
+                            <type>input</type>
+                            <size>20</size>
                             <eval>trim</eval>
                         </config>
                     </TCEforms>
@@ -279,9 +278,8 @@
                         <exclude>1</exclude>
                         <label>LLL:EXT:soee_cookiecuttr/Resources/Private/Language/locallang.xlf:flexform.cookie_decline_button_text</label>
                         <config>
-                            <type>text</type>
-                            <cols>20</cols>
-                            <rows>1</rows>
+                            <type>input</type>
+                            <size>20</size>
                             <eval>trim</eval>
                         </config>
                     </TCEforms>
@@ -291,9 +289,8 @@
                         <exclude>1</exclude>
                         <label>LLL:EXT:soee_cookiecuttr/Resources/Private/Language/locallang.xlf:flexform.cookie_reset_button_text</label>
                         <config>
-                            <type>text</type>
-                            <cols>20</cols>
-                            <rows>1</rows>
+                            <type>input</type>
+                            <size>20</size>
                             <eval>trim</eval>
                         </config>
                     </TCEforms>
@@ -303,9 +300,8 @@
                         <exclude>1</exclude>
                         <label>LLL:EXT:soee_cookiecuttr/Resources/Private/Language/locallang.xlf:flexform.cookie_what_are_link_text</label>
                         <config>
-                            <type>text</type>
-                            <cols>20</cols>
-                            <rows>1</rows>
+                            <type>input</type>
+                            <size>20</size>
                             <eval>trim</eval>
                         </config>
                     </TCEforms>
@@ -327,9 +323,8 @@
                         <exclude>1</exclude>
                         <label>LLL:EXT:soee_cookiecuttr/Resources/Private/Language/locallang.xlf:flexform.cookie_discreet_link_text</label>
                         <config>
-                            <type>text</type>
-                            <cols>20</cols>
-                            <rows>1</rows>
+                            <type>input</type>
+                            <size>20</size>
                             <eval>trim</eval>
                         </config>
                     </TCEforms>
