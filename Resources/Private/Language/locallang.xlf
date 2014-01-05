@@ -59,6 +59,9 @@
                 <source>Domain name without www. or https:// or http://</source>
             </trans-unit>
 
+            <trans-unit id="flexform.cookie_message">
+                <source>Cookie message</source>
+            </trans-unit>
             <trans-unit id="flexform.cookie_analytics_message">
                 <source>Cookie analytics message</source>
             </trans-unit>
