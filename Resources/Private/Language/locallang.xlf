@@ -7,7 +7,7 @@
                 <source>General</source>
             </trans-unit>
             <trans-unit id="flexform.tab_messages">
-                <source>Wiadomości</source>
+                <source>Messages</source>
             </trans-unit>
 
             <trans-unit id="flexform.css_themes_toot_path">
