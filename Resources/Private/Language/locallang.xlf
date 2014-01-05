@@ -6,6 +6,9 @@
             <trans-unit id="flexform.tab_general">
                 <source>General</source>
             </trans-unit>
+            <trans-unit id="flexform.tab_messages">
+                <source>Wiadomości</source>
+            </trans-unit>
 
             <trans-unit id="flexform.css_themes_toot_path">
                 <source>Custom path to folder with CSS themes files</source>
@@ -54,6 +57,31 @@
             </trans-unit>
             <trans-unit id="flexform.cookie_domain">
                 <source>Domain name without www. or https:// or http://</source>
+            </trans-unit>
+
+            <trans-unit id="flexform.cookie_analytics_message">
+                <source>Cookie analytics message</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_error_message">
+                <source>Error message</source>
+            </trans-unit>
+            <trans-unit id="cookie_accept_button_text">
+                <source>Accept button text</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_decline_button_text">
+                <source>Decline button text</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_reset_button_text">
+                <source>Reset button text</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_what_are_link_text">
+                <source>What are cookis link text</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_policy_page_message">
+                <source>Policy page message</source>
+            </trans-unit>
+            <trans-unit id="flexform.cookie_discreet_link_text">
+                <source>Discreet link text</source>
             </trans-unit>
 
             <trans-unit id="frontend.message">
