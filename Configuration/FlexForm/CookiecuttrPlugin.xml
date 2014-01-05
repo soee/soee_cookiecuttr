@@ -112,24 +112,11 @@
                             <exclude>1</exclude>
                             <label>LLL:EXT:soee_cookiecuttr/Resources/Private/Language/locallang.xlf:flexform.cookie_policy_link</label>
                             <config>
-                                <type>input</type>
-                                <size>50</size>
-                                <max>256</max>
+                                <type>group</type>
+                                <internal>db</internal>
+                                <allowed>pages</allowed>
+                                <max>1</max>
                                 <eval>trim</eval>
-                                <wizards>
-                                    <_PADDING>2</_PADDING>
-                                    <link>
-                                        <type>popup</type>
-                                        <title>LLL:EXT:cms/locallang_ttc.xml:header_link_formlabel</title>
-                                        <icon>link_popup.gif</icon>
-                                        <script>browse_links.php?mode=wizard</script>
-                                        <JSopenParams>height=300,width=500,status=0,menubar=0,scrollbars=1</JSopenParams>
-                                        <params>
-                                            <blindLinkOptions>folder,mail,spec,file</blindLinkOptions>
-                                        </params>
-                                    </link>
-                                </wizards>
-                                <softref>typolink</softref>
                             </config>
                         </TCEforms>
                     </settings.cookiePolicyLink>
@@ -138,24 +125,11 @@
                             <exclude>1</exclude>
                             <label>LLL:EXT:soee_cookiecuttr/Resources/Private/Language/locallang.xlf:flexform.cookie_what_are_they_link</label>
                             <config>
-                                <type>input</type>
-                                <size>50</size>
-                                <max>256</max>
+                                <type>group</type>
+                                <internal>db</internal>
+                                <allowed>pages</allowed>
+                                <max>1</max>
                                 <eval>trim</eval>
-                                <wizards>
-                                    <_PADDING>2</_PADDING>
-                                    <link>
-                                        <type>popup</type>
-                                        <title>LLL:EXT:cms/locallang_ttc.xml:header_link_formlabel</title>
-                                        <icon>link_popup.gif</icon>
-                                        <script>browse_links.php?mode=wizard</script>
-                                        <JSopenParams>height=300,width=500,status=0,menubar=0,scrollbars=1</JSopenParams>
-                                        <params>
-                                            <blindLinkOptions>folder,mail,spec,file</blindLinkOptions>
-                                        </params>
-                                    </link>
-                                </wizards>
-                                <softref>typolink</softref>
                             </config>
                         </TCEforms>
                     </settings.cookieWhatAreTheyLink>
