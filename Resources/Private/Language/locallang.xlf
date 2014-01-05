@@ -65,7 +65,7 @@
             <trans-unit id="flexform.cookie_error_message">
                 <source>Error message</source>
             </trans-unit>
-            <trans-unit id="cookie_accept_button_text">
+            <trans-unit id="flexform.cookie_accept_button_text">
                 <source>Accept button text</source>
             </trans-unit>
             <trans-unit id="flexform.cookie_decline_button_text">
